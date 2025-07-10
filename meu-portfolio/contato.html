@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header com navegação -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Sobre Mim</a></li>
+                <li><a href="formacao.html">Formação</a></li>
+                <li><a href="portfolio.html">Portfólio</a></li>
+                <li><a href="contato.html" class="active">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Container principal -->
+    <div class="container">
+        <main>
+            <h1>Contato</h1>
+            
+            <p class="text-center">
+                Entre em contato comigo através dos meios abaixo:
+            </p>
+            
+            <!-- Informações de contato -->
+            <div class="portfolio-grid">
+                <div class="portfolio-card">
+                    <h3>E-mail</h3>
+                    <p>
+                        <strong>drodriguesneiva@gmail.com</strong>
+                    </p>
+                </div>
+
+                <div class="portfolio-card">
+                    <h3>LinkedIn</h3>
+                    <p>
+                        <a href="https://www.linkedin.com/in/d-rodrigues-neiva/" target="_blank">https://www.linkedin.com/in/d-rodrigues-neiva/</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Formulário de Contato -->
+            <div class="form-container" style="text-align: left;">
+                <h2>Formulário para Contato</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem aqui..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
